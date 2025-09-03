@@ -35,7 +35,7 @@ const Register = () => {
         <Label htmlFor="nickname">닉네임</Label>
         <Input id="nickname" name="nickname"></Input>
         <Label htmlFor="phone">휴대폰번호</Label>
-        <Input type="phone" id="phone"></Input>
+        <Input type="tel" id="phone"></Input>
         <Button>인증하기</Button>
         <Label htmlFor="phone-verify">휴대폰번호 확인</Label>
         <Input
